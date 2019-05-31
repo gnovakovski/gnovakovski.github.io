@@ -18,7 +18,7 @@
   <!-- My JavaScript -->
   <script type="text/javascript">
 		function findGif(){
-			var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + 'cat' + '&api_key=DbHzHkc9stUb9wRHUCngV1bRXmG8Jp6m';
+			var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + 'cat' + '&api_key=DbHzHkc9stUb9wRHUCngV1bRXmG8Jp6m';
 
         // Part 2 - Use AJAX to call GIPHY API (note that the .done() function waits for the API to respond)
         $.ajax({url: queryURL, method: 'GET'}).done(function(response){
