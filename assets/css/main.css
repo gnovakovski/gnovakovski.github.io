@@ -4723,3 +4723,7 @@ sub, sup {
     margin: 0;
     color: #fff
 }
+.redTextH3
+{
+ color: #e53935 !important;
+}
